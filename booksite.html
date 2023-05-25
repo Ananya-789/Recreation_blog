@@ -1,0 +1,203 @@
+<html>
+ <head>
+  <title> NOVELS(Blog)</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ </head>
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+ <link href="https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap" rel="stylesheet">
+
+<body text="black" leftmargin=20px>
+ <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+  <div class=".navbar_header">
+   <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+   </button>
+   <div class="collapse navbar-collapse" id="myNavbar">
+    <ul class="nav navbar-nav">
+     <li><a class="link" href="#HOME">HOME</a></li>
+     <li><a class="link" href="#benefits"> BENEFITS OF READING</a></li>
+     <li><a class="link" href="#stat"> STATISTICS</a> </li>
+     <li><a class="link" href="#form"> FORM </a></li>
+    </ul>
+  </div>
+ </nav>
+
+<section id="HOME">
+<center>
+ <div class="parallax-inner"><img id="prof" src="prf.jpg">
+  <br><br><br><br><br> 
+  <h1> My Blog</h1>
+ </div>
+</center>
+</section>
+<hr> <br>
+
+<section id="space">
+ <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</section>
+
+<section id="benefits">
+ <h3> Benefits of Reading</h3>
+ <div class="line"></div>
+<p>Reading books is very beneficial because it improves our vocabulary, and verbal-linguistic skills, it also reduces stress, increases empathy and it also aids sleep. Reading books is a natural hobby of mine however this hobby can be developed by anyone. Reading books also instills many good qualities, especially in children like - punctuality and discipline, etc. Reading books is a hobby of many successful people like - Bill Gates, Elon Musk, etc. Reading books has changed the lives of many people. It is essential to make a person successful in life.</p><hr>
+</section>
+<hr><br><br>
+<section id="stat">
+<center>
+ <h3>Statistics</h3>
+ <div class="line"></div>
+ <table border="1" bgcolor="yellow" bordercolor="black" width="40%">
+   <tr>
+     <th>Popular Books</th>
+     <th>Author(s)</th>
+     <th>Approximate Sales</th>
+   </tr>
+   
+   <tr>
+    <td>The Harry Potter Series</td>
+    <td>J.K. Rowling</td>
+    <td>120 million</td>
+   </tr>
+
+   <tr>
+    <td>And Then There Were None</td>
+    <td>Agatha Christie</td>
+    <td>100 million</td>
+   </tr>
+
+   <tr>
+    <td>The Hobbit</td>
+    <td>J.R.R. Tolkien</td>
+   </tr>
+
+   <tr>
+    <td>The Da Vinci Code</td>
+    <td>Dan Brown</td>
+    <td>80 million</td>
+   </tr>
+ </table>
+</center>
+</section>
+<hr>
+<br><br><br>
+<section id="form">
+ <h3>Review Form</h3><br>
+ <div class="line"></div><br>
+ <p>Submit the name of the book which you want us to review!</p><br><br>
+ <form name=myform action="https://ananya-789.github.io/novelsblogbookdata/" method="POST">
+   ENTER NAME:  <input type="text" size="25"><br><br>
+   ENTER BOOK NAME:  <input type="text" size="25"><br> <br>
+<br>
+  <input type="submit" value="Submit book name for review.">
+ </form>
+ <hr>
+ <h3>SOME EXCLUSIVE REVIEWS!</h3> &nbsp;<div class="line"></div> <br><br>
+ <button id="jA"><a href="https://readability.com.au/2020/05/18/book-review-pride-and-prejudice-by-jane-austen/">'Pride & Prejudice' by Jane Austen</a></button> &nbsp; &nbsp;
+ <button id="wonder"><a href="https://www.theguardian.com/childrens-books-site/2016/jun/25/wonder-rj-palacio-review">'Wonder' by R.J. Palacio</a></button>&nbsp; &nbsp;
+ <button id="tower"><a href="https://saanvimodi.wordpress.com/2019/03/30/book-review-malory-towers/">'Mallory Towers' by Enid Blyton</a></button>&nbsp; &nbsp;
+ <button id="b1"><a href="https://www.theguardian.com/books/2013/oct/17/review-to-kill-a-mockingbird-harper-lee">'To Kill a Mockingbird' by Harper Lee</a></button>
+</section>
+
+<style>
+body {
+    text-align: center;
+}
+
+
+.menu {
+     align: center;
+     list-style: none;
+     font-family: cursive;
+     float: right;
+     top: 10px;
+     right: 30px;
+     cursor: pointer;
+     color: #E200A3;
+     float: left;
+ }
+
+
+.link {
+     color: crimson;
+     display: inline;
+     padding-left: 9px;
+     padding-right: 9px;
+     padding-bottom: 5px;
+     color: black;
+     float: left;
+}
+
+.links:hover {
+        background-color: dodgerblue;
+}
+
+.links.active {
+             background: white;  }
+
+#prof {
+    border-radius: 50%;
+    width: 250px;
+    align: center;
+}
+
+
+h1 {
+    font-family: 'Rouge Script', cursive;}
+
+
+#HOME {
+     z-index: 10;
+     background-color: hotpink;
+     padding: 70px;
+     text-align: center;
+}
+
+
+#space,#benefits {
+    background: linear-gradient(to right, blue, violet);
+}
+
+
+.line
+{
+   background-color: black;
+   width: 120px;
+   height: 8px;
+   margin: 8px auto;
+}
+
+#stat {
+     background-color: yellow;
+}
+
+#form {
+     background-color: orange;
+}
+
+#jA, #wonder, #tower, #b1 {
+                        background-color: skyblue;  
+                        padding-top: 10px;
+                        padding-left: 10px;
+                        padding-right: 10px;
+                        padding-bottom: 10px;
+}
+
+#jA:hover, #wonder:hover, #tower:hover, #b1:hover {
+                              background-color: CDB48C;
+                              background: pink;
+                              padding-top: 12px;
+                              padding-left: 12px;
+                              padding-right: 12px;
+                              padding-bottom: 12px;
+                              border: skyblue;
+                              border-style: solid;
+                              border-radius: 30px;
+}
+</style>
+</body>
+</html>
